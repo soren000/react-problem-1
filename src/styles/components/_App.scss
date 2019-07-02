@@ -1,0 +1,10 @@
+.App {
+    text-align: center;
+    background-color: $color-main;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: $size-font-standard;
+    align-items: center;
+    width: 100vw;
+}

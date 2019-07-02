@@ -1,0 +1,12 @@
+$color-main: #282c34;
+$color-main-darker: darken($color-main, 10);
+$color-main-lighter: lighten($color-main, 8);
+
+$color-font: #D8D9DA;
+
+$size-font-standard: calc(10px + 2vmin);
+$size-font-small: calc(5px + 2vmin);
+$size-font-xsmall: calc(2vmin - 1px);
+
+$size-font-small-unresp: 1.5rem;
+$size-font-xsmall-unresp: 1rem;

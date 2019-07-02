@@ -1,0 +1,12 @@
+.textInput {
+    border: none;
+    outline: 1px solid black;
+    background-color: $color-main-darker;
+    padding: .75rem;
+    max-width: calc(8rem + 4vmin);
+    font-size: $size-font-xsmall-unresp;
+    
+    &:focus {
+        background-color: $color-main-lighter;
+    }
+}
