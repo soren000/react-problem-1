@@ -6,6 +6,8 @@ import './styles/main.scss';
 const App = () => {
     const [text, setText] = useState('');
 
+    document.title = "React Problem #1";
+
     return (
         <div className="App">
             <AppContext.Provider value={{
